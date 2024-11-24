@@ -1,0 +1,26 @@
+name: flutter_decida_comida
+description: "Um aplicativo Flutter para ajudar casais a decidirem o que comer."
+publish_to: 'none' # Remove esta linha se desejar publicar no pub.dev.
+
+# Versão e número de build para o aplicativo
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+# Dependências do projeto
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^4.0.4
+  flutter_spinkit: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Configurações específicas do Flutter
+flutter:
+  uses-material-design: true
